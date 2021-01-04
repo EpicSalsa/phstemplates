@@ -9,7 +9,7 @@
 
 params <- list(
   # Report filename - Please check carefully
-  rmd_filename    = "Report.Rmd",
+  rmd_filename    = "skeleton.Rmd",
   # Cover page filename - Please check carefully
   cover_filename  = "Cover_Page.docx",
   # Title for cover page

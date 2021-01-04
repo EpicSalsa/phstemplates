@@ -27,7 +27,7 @@ if (!(rmd_exists && cover_exists)) {
   message("Found all required input files. Compiling report...")
 
   # Create Report and Add Table of Contents
-  rmarkdown::render(params$rmd_filename, output_file = "temp_report.docx",
+  rmarkdown::render(params$rmd_filename, output_format = "word_document", output_file = "temp_report.docx",
                     envir = new.env())
 
   read_docx("temp_report.docx") %>%

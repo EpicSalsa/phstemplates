@@ -1,7 +1,9 @@
 ---
-output: 
+output:
+  html_document:
+    df_print: paged
   word_document:
-    reference_docx: "PHS-NatStats-RepTemplate.docx"
+    reference_docx: PHS-NatStats-RepTemplate.docx
     fig_caption: no
 ---
 
